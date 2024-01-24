@@ -1,0 +1,54 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #6ba793;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background-color: #dfd8d8;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 350px;
+  overflow: hidden;
+  position: relative;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+
+  font-weight: bold;
+}
+
+input {
+  padding: 12px;
+  margin-bottom: 10px;
+  width: 300px;
+
+  border-radius: 8px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.alert {
+  color: #ff5e5e;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+button {
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
